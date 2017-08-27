@@ -129,5 +129,6 @@ for key in words:
 for key in words:
     for line in words[key]:
         print(line)
-    print('\n')
+    if not key == list(words.keys())[-1]:
+        print('\n')
 
